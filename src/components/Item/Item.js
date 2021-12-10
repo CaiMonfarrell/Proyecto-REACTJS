@@ -7,8 +7,8 @@ const Item = ({item})=>{
             <div className="tiendaCard">
                 <img src={item.img} alt={item.name}></img>
                 <div className="cardInfo">
-                    <h3 className="cardText">{item.name}</h3>  
-                    <h4 className="cardPrice">${item.price}</h4> 
+                    <h4 className="cardPrice">${item.price}</h4>
+                    <h3 className="cardText">{item.name}</h3> 
                     <p className="cardFooter">Click para ver detalle </p>
                 </div>
             </div>
